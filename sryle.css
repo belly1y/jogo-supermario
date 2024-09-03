@@ -35,7 +35,19 @@
     position: absute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
-}
+} 
+
+button{
+    background: green;
+    color: weight;
+    font-size: 1,5rem;
+     border: none;
+    padding: 1rm;
+    position: absolute;
+    right: 50 vw;
+     top: 50vh
+    cursor: poiter;
+    z-index: 1;
 
 @keyframes pipe-animation {
     from {
