@@ -1,5 +1,17 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const startbuttom = document.querySelector(".start")
+const gameOverScreen = document.querySelector(".game-over");
+
+let gameSarted = false;
+
+const startGame =() => {
+  gameStarted = true;
+  pipe.style.animation = "pipe- animation 1.5s infinite linear;"
+  
+}
+
+
 
 const jump = () => {
   mario.classList.add("jump");
