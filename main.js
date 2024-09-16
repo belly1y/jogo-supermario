@@ -1,5 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const nuvem = document.querySelector(".nuvem")
 const startbuttom = document.querySelector(".start")
 const gameOverScreen = document.querySelector(".game-over");
 
@@ -10,7 +11,7 @@ const startGame =() => {
   pipe.style.animation = "pipe- animation 1.5s infinite linear;"
   
 }
-
+  audioStart.play();
 
 
 const jump = () => {
@@ -44,3 +45,20 @@ mario.style.marginLeft= "50px";
 document.addEventListener("keydon", jump);
 
 
+
+
+audiotart.pause();
+
+gameOverSound.play();
+
+clearInterval(loop);
+gameOverScreen.style.display = "flex";
+}
+
+
+
+
+const restartGame = () => {
+
+  WebTransportBidirectionalStream.location.reload();
+}
