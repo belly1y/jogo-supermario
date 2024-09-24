@@ -52,7 +52,7 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
     mario.style.animation = "none";
     mario.style.left = `${marioPosition}px`;
 
-    mario.src = "./img/game-over_pua.png";
+    mario.src = "./img/game_over_pua.png";
     mario.style.width = "75px";
     mario.style.marginLeft = "50px";
     audioStart.pause();
